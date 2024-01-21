@@ -1,0 +1,27 @@
+.tittle{
+    margin-top: 8rem;
+    font-size: 5rem;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 900;
+    border-bottom:1px solid black ;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+    margin-top: 8rem;
+}
+
+.tittle_span{
+    margin-left: 1.5rem;
+    font-weight: 20;
+}
+
+.blog{
+    width: 100vw;
+    height: max-content;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items:start;
+    padding: 2rem;
+}

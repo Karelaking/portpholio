@@ -1,0 +1,21 @@
+.about{
+    width: 100vw;
+    min-height: 100vh;
+    margin-top: 8rem;
+    height: max-content;
+}
+
+.tittle{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 900;
+    border-bottom:1px solid black ;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+
+}
+
+.tittle_span{
+    margin-left: 1.5rem;
+    font-weight: 20;
+}
