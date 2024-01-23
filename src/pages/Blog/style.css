@@ -16,6 +16,10 @@
 }
 
 .blog{
+<<<<<<< HEAD
+=======
+    width: 100vw;
+>>>>>>> 8392666c2b5a617b5717009b57406438b56083d6
     height: max-content;
     min-height: 100vh;
     display: flex;

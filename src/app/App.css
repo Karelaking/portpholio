@@ -4,6 +4,7 @@
 --yinmn-blue: #415a77ff;
 --silver-lake-blue: #778da9ff;
 --text-color: #e0e1ddff;
+<<<<<<< HEAD
 box-sizing: border-box;
 margin: 0;
 padding: 0;
@@ -17,4 +18,15 @@ text-decoration: none;
   display: flex;
   flex-direction: column;
   height: max-content;
+=======
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+>>>>>>> 8392666c2b5a617b5717009b57406438b56083d6
 }
