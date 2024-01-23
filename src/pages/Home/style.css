@@ -1,0 +1,57 @@
+.home{
+    width: 100vw;
+    min-height: 100vh;
+    /* padding-top: 7rem; */
+    top: 0;
+}
+
+.text_box{
+  margin: 2rem;
+    display: flex;
+    flex-direction: column;
+   width: 40vw;
+   height: 80vh;
+background: rgba(255, 255, 255, 0.13);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.3px);
+-webkit-backdrop-filter: blur(6.3px);
+}
+
+.btton_frame{
+display: block;
+}
+
+.home .name{
+    margin-left: 1.5rem;
+    font-weight: 10;
+    font-family: serif;
+    -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

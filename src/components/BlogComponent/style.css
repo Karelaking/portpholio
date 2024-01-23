@@ -1,0 +1,51 @@
+.component{
+    max-width:50rem;
+    height: max-content;
+    flex-flow: column;
+    margin-top: 2rem;
+    gap: 2rem;
+    /* position: absolute; */
+    padding: 1rem;
+    margin: 2rem;  
+    /* border: 1px solid black; */
+    /* From https://css.glass */
+background: #8988883b;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(7.3px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4rem;
+    /* overflow-y: hidden; */
+    -webkit-box-shadow: 0px 14px 61px -46px rgba(0,0,0,1);
+-moz-box-shadow: 0px 14px 61px -46px rgba(0,0,0,1);
+box-shadow: 0px 14px 61px -46px rgba(0,0,0,1);
+}
+
+.blog_img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 4rem;
+}
+
+.content_info{
+padding: 1rem;
+}
+
+.blog_tittle{
+font-size: 3.5rem;
+font-weight: 700;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.discription{
+    word-wrap: break-word;
+    text-wrap: wrap;
+    font-size: 1.7rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    height: 18rem;
+    overflow-y: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
